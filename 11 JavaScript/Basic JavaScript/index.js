@@ -25,13 +25,22 @@
 
 //04
 
-function lifeRemaining(age){
-    let remaining = 90 - age;
-    let days = remaining * 365;
-    let months = remaining * 12;
-    let weeks = remaining * 52;
-    let years = remaining;
-    console.log("You Have "+ years + " Years, "+ months + " Months, "+ weeks + " Weeks, "+ days + " Days Left");
+// function lifeRemaining(age){
+//     let remaining = 90 - age;
+//     let days = remaining * 365;
+//     let months = remaining * 12;
+//     let weeks = remaining * 52;
+//     let years = remaining;
+//     console.log("You Have "+ years + " Years, "+ months + " Months, "+ weeks + " Weeks, "+ days + " Days Left");
+// }
+
+// lifeRemaining(20);
+
+//05 BMI Calculator 
+
+function bmiCalculator(weight, height){
+    let bmi = Math.round(weight/ Math.pow(height,2));
+    return bmi
 }
 
-lifeRemaining(20);
+console.log(bmiCalculator(62, 1.7));
