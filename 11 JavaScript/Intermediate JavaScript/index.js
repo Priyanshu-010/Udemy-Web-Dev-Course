@@ -26,3 +26,31 @@
 // }
 
 // starPattern(5);
+
+// 04 Array
+
+// Array of random names
+
+// const yourName = prompt("Enter Your Name");
+// const randomNames = ["Alice", "Bob", "Charlie", "Diana", "Eve", "Frank"];
+// // console.log(randomNames);
+
+// if(randomNames.includes(yourName)){
+//   console.log("You are in the list");
+// } else {
+//   console.log("You are not in the list");
+// }
+
+//05 Challenge Question
+
+// for (let i = 0; i < 101; i++) {
+//   if (i % 3 === 0 && i % 5 === 0){
+//     console.log("FizzBuzz");
+//   } else if (i % 3 ===0){
+//     console.log("Fizz");
+//   }else if(i % 5 === 0){
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
