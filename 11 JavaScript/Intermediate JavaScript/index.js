@@ -41,7 +41,7 @@
 //   console.log("You are not in the list");
 // }
 
-//05 Challenge Question
+//05 Challenge Question (FizzBuzz)
 
 //  for (let i = 0; i < 101; i++) {
 //   if (i % 3 === 0 && i % 5 === 0){
