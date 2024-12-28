@@ -55,10 +55,10 @@
 //   }
 // }
 
-// 06 FizzBuzz Challenge Question with while loop
+// 5.1 FizzBuzz Challenge Question with while loop
 
 // let i = 0;
- 
+
 // while(i< 101){
 //   if (i % 3 === 0 && i % 5 === 0){
 //     console.log("FizzBuzz");
@@ -73,7 +73,7 @@
 // }
 
 // 06 Finding random name from the array for buying lunch
- 
+
 // const names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
 
 // const length = names.length;
@@ -91,3 +91,19 @@
 //     console.log(`No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall`);
 //   }
 // }
+
+//08 Fibonacci Sequence
+
+function fibonacci(n) {
+  let fib = [0, 1];
+  if (n === 0) {
+    return 0;
+  } else {
+    for (let i = 2; i < n; i++) {
+      fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    return fib;
+  }
+}
+
+console.log(fibonacci(5));
