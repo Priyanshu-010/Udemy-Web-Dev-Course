@@ -38,9 +38,33 @@
 
 //05 BMI Calculator 
 
-function bmiCalculator(weight, height){
-    let bmi = Math.round(weight/ Math.pow(height,2));
-    return bmi
-}
+// function bmiCalculator(weight, height){
+//     let bmi = Math.round(weight/ Math.pow(height,2));
+//     return bmi
+// }
 
-console.log(bmiCalculator(62, 1.7));
+// console.log(bmiCalculator(62, 1.7));
+
+//06 Advance BMI
+
+// function bmiCalculator(weight, height){
+//     let bmi = Math.round(weight/ Math.pow(height,2));
+//     return bmi
+// }
+
+// bmiCalculator(62, 1.7);
+
+// let bmi = bmiCalculator(62, 1.7);
+// if (bmi < 18.5){
+//     console.log(`Your BMI is ${bmi}`);
+//     console.log("Underweight"); 
+// } else if (bmi > 18.5 && bmi < 25){
+//     console.log(`Your BMI is ${bmi}`);
+//     console.log("Normal Weight");
+// } else if (bmi > 25 && bmi < 30){
+//     console.log(`Your BMI is ${bmi}`);
+//     console.log("Overweight");
+// } else {
+//     console.log(`Your BMI is ${bmi}`);
+//     console.log("Obese");
+// }
