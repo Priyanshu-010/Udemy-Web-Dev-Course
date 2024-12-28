@@ -54,3 +54,14 @@
 //     console.log(i);
 //   }
 // }
+
+// 06 Finding random name from the array for buying lunch
+ 
+// const names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+
+// const length = names.length;
+// // console.log(length) //You can Comment this one out
+// const randomName = Math.floor(Math.random() * length );
+// console.log(randomName)
+// console.log(names[randomName]);
+
