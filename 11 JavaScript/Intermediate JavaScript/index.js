@@ -82,3 +82,12 @@
 // console.log(randomName)
 // console.log(names[randomName]);
 
+// 07 99 Bottles of Beer
+
+// for(let i = 99; i > 0-1; i--){
+//   if (i !== 0 ){
+//     console.log(`${i} bottles of beern  othe wall, ${i} bottles of berr. Take one down and pass it around ${i -1} bottles of beer on the wall`);
+//   }else {
+//     console.log(`No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall`);
+//   }
+// }
