@@ -34,3 +34,25 @@
 // function btnClick(){
 // alert("I got Clicked");
 // }
+
+
+//Calculator
+
+// function add(num1, num2){
+//   return num1 + num2;
+// }
+// function multiply(num1, num2){
+//   return num1 * num2;
+// }
+// function sub(num1, num2){
+//   return num1 - num2;
+// }
+// function divide(num1, num2){
+//   return num1 / num2;
+// }
+
+// function calc(num1, num2, operator){
+//   return operator(num1, num2);
+// }  // This is an Higher order function which takes a function as an argument
+
+// console.log(calc(2, 3, divide));
