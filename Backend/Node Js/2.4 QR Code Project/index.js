@@ -19,6 +19,6 @@ inquirer
     qr_img.pipe(fs.createWriteStream("qr_img.png"));
     fs.writeFile("URL.txt", url, (err)=>{
       if (err) throw err;
-      console.log("The file has been saved!");
+      console.log("The file has been saved!"); 
     })
   })
