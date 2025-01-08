@@ -10,7 +10,15 @@ const port = 3000;
 app.use(bodyParser.urlencoded({extended : true}));
 
 app.post("/submit", (req, res) => {
-  console.log(req.body);
+  try {
+    console.log(req.body);
+  } catch (error) {
+    if (error) {
+      console.log(error);
+    }else{
+      console.log("Done");
+    }
+  }
 })
 
 app.get("/", (req, res) => {
